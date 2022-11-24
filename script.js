@@ -1,20 +1,41 @@
-document.getElementById("btn1").addEventListener("click",
-function (){
-    let userName = prompt("Enter your username")
-    if(userName.lenght < 10 && userName.lenght > 0){
-        return true
-    }else{
-        return false
-    }
-     console.log(validateUserName(userName))
-     let email = prompt("Enter your email")
-     if(emailCheckResult == true){
-        return true
-    }else{
-        return false
-    }
+let var1 = document.getElementById("btn1")
+
+function Fillin(){
+    let v1= prompt("Enter your name: ");
+    let v2= prompt("Enter your email: ");
+    let v3= prompt("Enter your password: ");
+    console.log(v1,v2,v3)
+
+}
+
+
+let var2=addEventListener('click', Fillin);
+
+
+
+
+
+
+
+
+
+// document.getElementById("btn1").addEventListener("click",
+// function (){
+//     let userName = prompt("Enter your username")
+//     if(userName.lenght < 10 && userName.lenght > 0){
+//         return true
+//     }else{
+//         return false
+//     }
+//      console.log(validateUserName(userName))
+//      let email = prompt("Enter your email")
+//      if(emailCheckResult == true){
+//         return true
+//     }else{
+//         return false
+//     }
    
-})
+// })
 
 
 // let userDetailsDatabase = {}
